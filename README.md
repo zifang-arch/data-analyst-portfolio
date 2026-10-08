@@ -37,7 +37,7 @@ SQL 練習題與解法,依觀念分類整理,涵蓋 LeetCode Database 分類、H
 - `hr_attrition_analysis.sql` — HR Attrition 資料集的探索性分析查詢
 
 ### 📁 kaggle-analysis/
-IBM HR Analytics Employee Attrition Dataset 分析(資料來源:[Kaggle](https://www.kaggle.com/datasets/pavansubhasht/ibm-hr-analytics-attrition-dataset))。使用 DB Browser for SQLite 匯入資料、寫 SQL 做探索性分析,再用 Tableau 做視覺化儀表板(見上方連結)。
+[IBM HR Analytics Employee Attrition Dataset 分析說明](kaggle-analysis/README.md)(資料來源:[Kaggle](https://www.kaggle.com/datasets/pavansubhasht/ibm-hr-analytics-attrition-dataset))。使用 DB Browser for SQLite 匯入資料、寫 SQL 做探索性分析,再用 Tableau 做視覺化儀表板。
 
 ## 使用工具
 
