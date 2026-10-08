@@ -26,7 +26,15 @@
 - 低薪員工離職率 28.61%,接近高薪員工(10.80%)的 3 倍
 
 ### 📁 sql/
-SQL 練習題與解法,涵蓋 LeetCode Database 分類、HackerRank SQL 練習,以及 HR Attrition 資料集的探索性分析查詢(`hr_attrition_analysis.sql`)。
+SQL 練習題與解法,依觀念分類整理,涵蓋 LeetCode Database 分類、HackerRank SQL 練習:
+
+- `01_where_null.sql` — WHERE 篩選 + NULL 判斷
+- `02_group_by_having.sql` — GROUP BY + HAVING + 聚合函數
+- `03_join.sql` — INNER JOIN / LEFT JOIN
+- `04_join_range_and_case_when.sql` — JOIN 進階配對(BETWEEN)+ CASE WHEN
+- `05_subqueries.sql` — 基礎子查詢 + Anti-Join
+- `06_like_and_string_functions.sql` — LIKE 模糊比對 + 字串/排序函數
+- `hr_attrition_analysis.sql` — HR Attrition 資料集的探索性分析查詢
 
 ### 📁 kaggle-analysis/
 IBM HR Analytics Employee Attrition Dataset 分析(資料來源:[Kaggle](https://www.kaggle.com/datasets/pavansubhasht/ibm-hr-analytics-attrition-dataset))。使用 DB Browser for SQLite 匯入資料、寫 SQL 做探索性分析,再用 Tableau 做視覺化儀表板(見上方連結)。
